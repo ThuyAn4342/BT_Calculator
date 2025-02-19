@@ -39,13 +39,15 @@ namespace B1_Calcualator_63_An
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Chia_63_An
             // 
-            this.btn_Chia_63_An.Location = new System.Drawing.Point(593, 304);
+            this.btn_Chia_63_An.Location = new System.Drawing.Point(791, 374);
+            this.btn_Chia_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Chia_63_An.Name = "btn_Chia_63_An";
-            this.btn_Chia_63_An.Size = new System.Drawing.Size(75, 23);
+            this.btn_Chia_63_An.Size = new System.Drawing.Size(100, 28);
             this.btn_Chia_63_An.TabIndex = 18;
             this.btn_Chia_63_An.Text = "Chia";
             this.btn_Chia_63_An.UseVisualStyleBackColor = true;
@@ -53,9 +55,10 @@ namespace B1_Calcualator_63_An
             // 
             // btn_Nhan_63_An
             // 
-            this.btn_Nhan_63_An.Location = new System.Drawing.Point(455, 304);
+            this.btn_Nhan_63_An.Location = new System.Drawing.Point(607, 374);
+            this.btn_Nhan_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Nhan_63_An.Name = "btn_Nhan_63_An";
-            this.btn_Nhan_63_An.Size = new System.Drawing.Size(75, 23);
+            this.btn_Nhan_63_An.Size = new System.Drawing.Size(100, 28);
             this.btn_Nhan_63_An.TabIndex = 17;
             this.btn_Nhan_63_An.Text = "Nhân";
             this.btn_Nhan_63_An.UseVisualStyleBackColor = true;
@@ -63,9 +66,10 @@ namespace B1_Calcualator_63_An
             // 
             // btn_Tru_63_An
             // 
-            this.btn_Tru_63_An.Location = new System.Drawing.Point(286, 304);
+            this.btn_Tru_63_An.Location = new System.Drawing.Point(381, 374);
+            this.btn_Tru_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Tru_63_An.Name = "btn_Tru_63_An";
-            this.btn_Tru_63_An.Size = new System.Drawing.Size(75, 23);
+            this.btn_Tru_63_An.Size = new System.Drawing.Size(100, 28);
             this.btn_Tru_63_An.TabIndex = 16;
             this.btn_Tru_63_An.Text = "Trừ";
             this.btn_Tru_63_An.UseVisualStyleBackColor = true;
@@ -73,23 +77,26 @@ namespace B1_Calcualator_63_An
             // 
             // txt2_63_An
             // 
-            this.txt2_63_An.Location = new System.Drawing.Point(286, 172);
+            this.txt2_63_An.Location = new System.Drawing.Point(381, 212);
+            this.txt2_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt2_63_An.Name = "txt2_63_An";
-            this.txt2_63_An.Size = new System.Drawing.Size(100, 20);
+            this.txt2_63_An.Size = new System.Drawing.Size(132, 22);
             this.txt2_63_An.TabIndex = 15;
             // 
             // txt1_63_An
             // 
-            this.txt1_63_An.Location = new System.Drawing.Point(286, 123);
+            this.txt1_63_An.Location = new System.Drawing.Point(381, 151);
+            this.txt1_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt1_63_An.Name = "txt1_63_An";
-            this.txt1_63_An.Size = new System.Drawing.Size(100, 20);
+            this.txt1_63_An.Size = new System.Drawing.Size(132, 22);
             this.txt1_63_An.TabIndex = 14;
             // 
             // btn_Cong_63_An
             // 
-            this.btn_Cong_63_An.Location = new System.Drawing.Point(136, 304);
+            this.btn_Cong_63_An.Location = new System.Drawing.Point(181, 374);
+            this.btn_Cong_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Cong_63_An.Name = "btn_Cong_63_An";
-            this.btn_Cong_63_An.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cong_63_An.Size = new System.Drawing.Size(100, 28);
             this.btn_Cong_63_An.TabIndex = 13;
             this.btn_Cong_63_An.Text = "Cộng";
             this.btn_Cong_63_An.UseVisualStyleBackColor = true;
@@ -97,18 +104,20 @@ namespace B1_Calcualator_63_An
             // 
             // txtkq_63_An
             // 
-            this.txtkq_63_An.Location = new System.Drawing.Point(286, 231);
+            this.txtkq_63_An.Location = new System.Drawing.Point(381, 284);
+            this.txtkq_63_An.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtkq_63_An.Name = "txtkq_63_An";
-            this.txtkq_63_An.Size = new System.Drawing.Size(100, 20);
+            this.txtkq_63_An.Size = new System.Drawing.Size(132, 22);
             this.txtkq_63_An.TabIndex = 12;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(132, 229);
+            this.label3.Location = new System.Drawing.Point(176, 282);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 20);
+            this.label3.Size = new System.Drawing.Size(80, 25);
             this.label3.TabIndex = 9;
             this.label3.Text = "Kết quả";
             // 
@@ -116,9 +125,10 @@ namespace B1_Calcualator_63_An
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(132, 170);
+            this.label2.Location = new System.Drawing.Point(176, 209);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 20);
+            this.label2.Size = new System.Drawing.Size(100, 25);
             this.label2.TabIndex = 10;
             this.label2.Text = "Số thứ hai";
             // 
@@ -126,17 +136,30 @@ namespace B1_Calcualator_63_An
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(132, 123);
+            this.label1.Location = new System.Drawing.Point(176, 151);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 20);
+            this.label1.Size = new System.Drawing.Size(112, 25);
             this.label1.TabIndex = 11;
             this.label1.Text = "Số thứ nhất";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label4.Location = new System.Drawing.Point(216, 42);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(522, 39);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Chương trình tính toán đơn giản";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_Chia_63_An);
             this.Controls.Add(this.btn_Nhan_63_An);
             this.Controls.Add(this.btn_Tru_63_An);
@@ -147,6 +170,7 @@ namespace B1_Calcualator_63_An
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -166,6 +190,7 @@ namespace B1_Calcualator_63_An
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
     }
 }
 
