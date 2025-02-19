@@ -56,5 +56,18 @@ namespace B1_Calcualator_63_An
             ketqua_63_An = c_63_An.Execute_63_An("/");
             txtkq_63_An.Text = ketqua_63_An.ToString();
         }
+
+        private void btn_tinh_Click(object sender, EventArgs e)
+        {
+            int n;
+            int kq = 0, i=1;
+            n = int.Parse(txt_giatri.Text);
+            while(i<=n)
+            {
+                kq += i;
+                i++;
+            }
+            txt_bieuthuc.Text = kq.ToString();
+        }
     }
 }

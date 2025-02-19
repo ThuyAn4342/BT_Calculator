@@ -40,6 +40,10 @@ namespace B1_Calcualator_63_An
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.txt_bieuthuc = new System.Windows.Forms.TextBox();
+            this.btn_tinh = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txt_giatri = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_Chia_63_An
@@ -154,11 +158,48 @@ namespace B1_Calcualator_63_An
             this.label4.TabIndex = 19;
             this.label4.Text = "Chương trình tính toán đơn giản";
             // 
+            // txt_bieuthuc
+            // 
+            this.txt_bieuthuc.Location = new System.Drawing.Point(466, 489);
+            this.txt_bieuthuc.Name = "txt_bieuthuc";
+            this.txt_bieuthuc.Size = new System.Drawing.Size(119, 22);
+            this.txt_bieuthuc.TabIndex = 20;
+            // 
+            // btn_tinh
+            // 
+            this.btn_tinh.Location = new System.Drawing.Point(267, 488);
+            this.btn_tinh.Name = "btn_tinh";
+            this.btn_tinh.Size = new System.Drawing.Size(75, 23);
+            this.btn_tinh.TabIndex = 21;
+            this.btn_tinh.Text = "button1";
+            this.btn_tinh.UseVisualStyleBackColor = true;
+            this.btn_tinh.Click += new System.EventHandler(this.btn_tinh_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(305, 453);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(25, 16);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "số:";
+            // 
+            // txt_giatri
+            // 
+            this.txt_giatri.Location = new System.Drawing.Point(350, 453);
+            this.txt_giatri.Name = "txt_giatri";
+            this.txt_giatri.Size = new System.Drawing.Size(44, 22);
+            this.txt_giatri.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.txt_giatri);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btn_tinh);
+            this.Controls.Add(this.txt_bieuthuc);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_Chia_63_An);
             this.Controls.Add(this.btn_Nhan_63_An);
@@ -191,6 +232,10 @@ namespace B1_Calcualator_63_An
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txt_bieuthuc;
+        private System.Windows.Forms.Button btn_tinh;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txt_giatri;
     }
 }
 
